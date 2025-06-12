@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora mmc</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <main>
+
+        <h1>Calculadora imc</h1>
+        <h2>uma calculadora de mmc para vverificar sua saude corporea.</h2>
+
+
+
+        <section>
+            <label for="peso">Peso(KG)</label>
+            <input type="number" placeholder="KG" id="peso">
+
+            <label for="altura">Altura(m)</label>
+            <input type="number" placeholder="metros" id="altura">
+            
+            <input  type="button" value="Calcular" onclick="calcular()">
+            
+        </section>
+        <section> 
+            <p>Resultado</p>
+
+            <p id="resultado"> </p>
+            <p id="parametro"> </p>
+        </section>
+
+    </main>
+    
+</body>
+</html>
