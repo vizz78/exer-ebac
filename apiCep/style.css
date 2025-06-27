@@ -1,16 +1,18 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background: #ff9533;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  flex-direction: column;
 }
 
-.container {
+container {
   background: rgb(255, 181, 120);
   padding: 30px;
   border-radius: 10px;
+  border: solid #a55000;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
@@ -26,4 +28,7 @@ button {
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
+  margin-top: 10px;
+  
 }
+
